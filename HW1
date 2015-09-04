@@ -1,0 +1,30 @@
+name = raw_input("Hi! What is your name? ")
+print("Hello, "+name+"! Let's play a game!\nThink of a number between 1 and 100, and I'll try to guess it")
+def binary_search():
+    numlist = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+           10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+           20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 
+           30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 
+           40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 
+           50, 75, 88, 94, 97, 99]
+    firstvalue = 0
+    lastvalue = len(numlist)-1 
+    while firstvalue<=lastvalue and not success:
+        midvalue = (firstvalue+lastvalue)//2
+        target = midvalue
+        count = 1
+        print("Is it "+target+"? (yes/no)")
+        what = raw_input("")
+        if what == yes
+            print("Yay! I got it in "+count+ "tries")
+            print("Do you want to play more? (yes/no)")
+            more == raw_input("")
+            count = count+1
+            elif print("Is it larger than "+target+"? (yes/no)")
+                what = raw_input("")
+                if what == no
+                    bs = binary_search():
+                    lastvalue = midvalue-1
+                else:
+                    firstvalue = midvalue+1 
+    return success
