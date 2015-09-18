@@ -83,7 +83,6 @@ data_list=["And now here is my secret, a very simple secret: It is only with the
 #this works for or
 query = input("query:").split()
 query1 = [query[0], query[2]]
-print (query)
 for varquery in query1:
     for i, varlist in enumerate(data_list):
         found_at = varlist.find(varquery)
