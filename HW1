@@ -28,3 +28,4 @@ def binary_search():
                 else:
                     firstvalue = midvalue+1 
     return success
+    
